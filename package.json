@@ -4,9 +4,14 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.0.3",
+    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-icons": "^3.10.0",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "shards-react": "^1.0.3",
+    "toasted-notes": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

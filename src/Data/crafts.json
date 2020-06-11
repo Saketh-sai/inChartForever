@@ -1,0 +1,90 @@
+{
+
+    "objcts" :    [
+    
+        {
+            "img-url": "./assets/cnv.jpg",
+            "Name" :  "Doraemon",
+            "price" : " 1000",
+            "rating" : [1,2,3,4],
+            "availability" : true
+            },
+            {
+                "img-url": "./assets/cnv1.jpg",
+                "Name" :  "2 ",
+                "price" : " ",
+                "rating" : [1,2,3,4],
+                "availability" : false
+            },
+            {
+                "img-url":  "./assets/cnv.jpg",
+                "Name" :  "3 ",
+                "price" : " ",
+                "rating" : [1,2,3,4],
+                "availability" : " "
+                },
+                {
+                    "img-url": "./assets/cnv1.jpg",
+                    "Name" :  "Easel1",
+                    "price" : " 1000",
+                    "rating" : [1,2,3,4],
+                    "availability" : " "
+                    },
+                    {
+                        "img-url":  "./assets/cnv.jpg",
+                        "Name" :  "Easel1",
+                        "price" : " 1000",
+                        "rating" : [1,2,3,4],
+                        "availability" : " "
+                        },
+                        {
+                            "img-url": "./assets/cnv1.jpg",
+                            "Name" :  "Easel1",
+                            "price" : " 1000",
+                            "rating" :[1,2,3,4],
+                            "availability" : " "
+                            },
+                            {
+                                "img-url":  "./assets/cnv.jpg",
+                                "Name" :  "Easel1",
+                                "price" : " 1000",
+                                "rating" :[1,2,3,4],
+                                "availability" : " "
+                                },
+                                {
+                                    "img-url": "./assets/cnv1.jpg",
+                                    "Name" :  "Easel1",
+                                    "price" : " 1000",
+                                    "rating" :[1,2,3,4],
+                                    "availability" : " "
+                                    },
+                                    {
+                                        "img-url":  "./assets/cnv.jpg",
+                                        "Name" :  "Easel1",
+                                        "price" : " 1000",
+                                        "rating" : [1,2,3,4],
+                                        "availability" : " "
+                                        },
+                                        {
+                                            "img-url": "./assets/cnv1.jpg",
+                                            "Name" :  "Easel1",
+                                            "price" : " 1000",
+                                            "rating" : [1,2,3,4],
+                                            "availability" : " "
+                                            },
+                                            {
+                                                "img-url":  "./assets/cnv.jpg",
+                                                "Name" :  "Easel1",
+                                                "price" : " 1000",
+                                                "rating" :[1,2,3,4],
+                                                "availability" : " "
+                                                },
+                                                {
+                                                    "img-url": "./assets/cnv1.jpg",
+                                                    "Name" :  "Easel1",
+                                                    "price" : " 1000",
+                                                    "rating" : [1,2,3,4],
+                                                    "availability" : " "
+                                                    }
+    ]
+    }
