@@ -20,6 +20,7 @@ import {
   import Home from './Homepage';
   import toast from 'toasted-notes';
 import 'toasted-notes/src/styles.css';
+import $ from 'jquery';
   
 
 
@@ -55,6 +56,7 @@ export default class ModalBuy extends React.Component {
   }
 
   close(){
+    
     ReactDOM.render(<Home/>,document.getElementById('mn'));
   }
 
@@ -62,7 +64,8 @@ export default class ModalBuy extends React.Component {
              
     toast.notify(<h6 class="green">Your Order has been sucessfully placed !!</h6>,{position:'top-right'});
     setTimeout(() => {
-                                      
+                     
+     
         ReactDOM.render(<Home/>,document.getElementById('mn'));
       }, 2000);
         

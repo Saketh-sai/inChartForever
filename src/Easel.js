@@ -16,6 +16,8 @@ import {
 } from "shards-react";
 import ModelBuy from './modal';
 import ModalBuy from './modal';
+import $ from 'jquery';
+
 
 
 
@@ -34,6 +36,7 @@ class Easelcomp extends React.Component{
     }
 
     load(name , img , price) {
+
        
        ReactDOM.render(<ModalBuy name={name} image = {img} price = {price}/>,document.getElementById('mn'));
       }
