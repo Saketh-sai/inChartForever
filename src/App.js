@@ -11,13 +11,13 @@ import ReactDOM from 'react-dom';
 import {GiPaintBrush} from "react-icons/gi";
 import { Button, Modal, ModalBody, ModalHeader } from "shards-react";
 import "shards-ui/dist/css/shards.min.css";
+import About from './about.js';
 
 class Sweety extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { open: false };
-    this.toggle = this.toggle.bind(this);
+   
   }
 
   componentDidMount(){
@@ -26,15 +26,14 @@ class Sweety extends React.Component {
 				
   }
 
-  toggle() {
-    console.log("Faf");
-    this.setState({
-      open: !this.state.open
-    });
+  showAbout(){
+    ReactDOM.render(<About/>,document.getElementById('mn'));
+
   }
+ 
   
   render() {
-    const { open } = this.state;
+   
     return ( 
       <div>
       
@@ -46,17 +45,11 @@ class Sweety extends React.Component {
         <a class="rt" href="#">
         <img src={twitter} alt="insta" />
         </a>
-        <a class="rt" href="#" onClick={this.toggle}>
+        <a class="rt" href="#">
         <img src={fb} alt="insta"  />
         </a>
-        <a class="rt" href="#">About US</a>
+        <a class="rt" href="#" onClick = { () => this.showAbout()}>About US</a>
       </div>
-
-      <Modal open={open} toggle={this.toggle}>
-      <ModalHeader>Header</ModalHeader>
-      <ModalBody>👋 Hello there!</ModalBody>
-    </Modal>
-   
 
       <div id="mn">
      //The main page where componets gets rendered.
